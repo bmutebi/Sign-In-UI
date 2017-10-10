@@ -1,0 +1,119 @@
+html {
+	background-color: whitesmoke;
+}
+.web-page {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 40%;
+	background: #3d4c75;
+	padding: 8%;
+	font-family: calibri;
+	font-weight: bold;
+/* 	background-image: url(../images/bus.jpg); */
+}
+
+input{
+	display: block;
+	border-radius: 20px;
+	border:none;
+	padding: 12px;
+	width: 98%;
+	font-family: inherit;
+	background-color: #495676;
+	margin-bottom: 20px;
+	font-size: large;
+	color: whitesmoke;
+}
+
+input[type=submit] {
+	width: 106%;
+	background-color: #135ff3;
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 55px;
+}
+
+.password {
+	border-top: 1px solid lightsteelblue;
+	padding-top: 55px;
+	width: 100%;
+	text-align: center;
+	font-size: larger;
+	color: #677094;
+}
+
+label {
+  color: #7b839e;
+	font-size: 15px;
+	display: block;
+}
+
+.checkbox {
+	display: inline-block;
+	width: 200px;
+	word-break: break-all;
+	color: #fff;
+	font-size: large;
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+	height: 20px
+	vertical-align: top;
+}
+
+input[type="checkbox"]:checked {
+	background-color: blue;
+}
+
+.button {
+	padding-bottom: 10px;
+}
+
+.button a{
+	display: inline;
+	border: none;
+	background-color: transparent;
+	color: #677094;
+	padding: 0;
+	padding-right: 10px;
+	font-size: x-large;
+	text-decoration: none;
+}
+
+.button a:first-child {
+	text-decoration: underline blue;
+	color: #fff;
+}
+
+@media screen and (max-width: 810px) {
+	.web-page{
+		max-width: 60%;
+	}
+	input {
+		width: 90%;
+	}
+	input[type=submit]{
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.web-page{
+		max-width: 70%;
+	}
+
+	input[type=submit]{
+		width: 98%;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	.web-page{
+		max-width: 90%;
+	}
+  	input[type=submit]{
+		width: 99%;
+	}
+}
